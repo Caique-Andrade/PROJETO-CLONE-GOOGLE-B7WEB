@@ -1,0 +1,178 @@
+*{
+    font-family: Arial;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display:flex;
+    margin-left: 1250px;
+    margin-top: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    align-items: center
+}
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0px;
+    padding: 15px;
+    font-size: 12px;
+    
+}
+nav ul{
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: -12px;
+    background-size: cover ;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.logo_google img{
+    background-position: center;
+    background-size: cover ;
+    height: 90px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 650px;
+}
+.campo_central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisas{
+        width: 600px;
+        padding: 14px;
+        margin-top: 15px;
+        font-size: 21px;
+        border: 1px solid #e6dddd;
+        border-radius: 32px;
+        outline: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn .botao{
+        width: 120px;
+        padding: 10px;
+        margin-top: 15px;
+        margin-left: 10px;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        background-color: #f8f9fa;
+
+}
+.btn .botao:hover{   
+    border: 1px solid #e1e6ec;
+    box-shadow: 0px 2px 1px #f8f9fa;
+}
+
+.link_footer {
+    text-align: left;
+    padding: 12px;
+    margin-left: 40px;
+}
+.link_footer a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+footer{
+    background-color:#f2f2f2 ;
+    width: auto;
+}
+footer p {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 35px;
+    margin-top: 250px;
+
+}
+
+.footer-pais a {
+    text-decoration: none;
+    margin-right: 40px;
+    padding:15px;
+}
+
+.info-pais {
+    padding: 15px;
+    font-size: 15px;
+    color: #0000008a;
+}
+.container4 {
+    margin-top: -15px;
+    margin-bottom:0px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dcdcdc;
+    width:100%;
+}
+.menu2 {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    padding-left: 3px;
+}
+.menu2 nav ul,
+nav li {
+    list-style: none;
+    font-size: 14px; 
+}
+.menu2 nav ul {
+display: flex;
+flex-direction: left;
+margin-left: 0;
+}
+.menu2 nav a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: #0000008a;
+}
+.menu3 {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 12px;
+}
+.menu3 nav ul,
+nav li {
+    list-style: none;
+    font-size: 14px;
+}
+.menu3 nav ul {
+    display: flex;
+}
+.menu3 nav a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: #0000008a;
+}
